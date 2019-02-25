@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+<style type="text/css">
+	*{
+		font-family: 'Noto Sans', sans-serif;
+		margin: 0px;
+		padding: 0px;
+		color: white;
+	}
+
+	.bg-img{
+		background-image: url('https://www.mgts.co.in/data1/images/slider6.jpg');
+		background-size: 100% 100%;
+		width: 100%;
+		height: 100vh;
+	}
+	.menu{
+		width: 100%;
+		height: 80px;
+		background-color: rgb(0, 0, 0, 0.5);
+	}
+	.left-menu{
+		width: 25%;
+		line-height: 80px;
+		float: left;
+		background-color: purple;
+	}
+	.left-menu h4{
+		padding-left: 60px;
+		font-weight: bold;
+		color: white;
+		font-size: 25px;
+	}
+	.right-menu{
+		width: 75%;
+		height: 80px;
+		float: right;
+		background-color: purple;
+
+	}
+	.right-menu ul{
+		margin-left: 400px;
+	}
+	.right-menu ul li{
+		display: inline-block;
+		list-style: none;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 80px;
+		margin-left: 40px;
+		text-transform: uppercase;
+	}
+
+	.right-menu ul li a{
+		text-decoration: none;
+	}
+	#fistList{
+		color: purple;
+	}
+
+	.right-menu ul li a:hover{
+		color: yellow;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.text{
+		margin-top: 150px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.text h4{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+
+	}
+	.text h1{
+		margin: 20px 0;
+		font-size: 50px;
+		font-weight: bold;	
+	}
+	.text h3{
+font-family: 'Montserrat', sans-serif;
+
+	}
+	#btn1{
+		border: none;
+		font-size: 15px;
+		text-transform: uppercase;
+		line-height: 40px;
+		width: 150px;
+		font-weight: bold;
+		margin-top: 20px;
+		color: purple;
+	}
+	#btn2{
+/*		border: 3px solid black;
+
+*/		border: none;
+		background-color: purple;
+		font-size: 15px;
+		text-transform: uppercase;
+		line-height: 40px;
+		width: 150px;
+		font-weight: bold;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+@media only screen and (max-width: 1300px) {
+ .right-menu ul{
+		margin-left: 100px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+ .bg-img{
+		background-size: 100% 50%;
+		width: 100%;
+		height: 100vh;
+	}
+}
+
+
+.bg-img{
+		background-image: url('https://www.mgts.co.in/data1/images/slider6.jpg');
+		background-size: 100% 100%;
+		width: 100%;
+		height: 100vh;
+	}
+
+</style>
+</head>
+<body>
+		
+	<div class="bg-img">
+		<div class="menu">
+			<div class="left-menu">
+				<h4>Website name</h4>
+			</div>
+			<div class="right-menu">
+				<ul>
+					<li id="fistList"><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">About us</a></li><li>
+					<a href="#">Contact</a></li>					
+				</ul>
+			</div>
+		</div>
+		<div class="text">
+			<h4>Design . Devlopment & Branding</h4>
+			<h1>Main Tag line of your website</h1>
+			<h3>Sort and precise description about your comapmny</h3>
+			<button id="btn1">Login</button>
+			<button id="btn2">Services</button>
+
+		</div>
+	</div>
+
+
+
+<script type="text/javascript">
+
+
+	let add = n=>{
+		if (n == 0 || n == 1) {
+			return 1
+		}
+		/*else{
+			return n * add(n-1);
+		}*/
+
+		var res = n;
+		while(n > 1){
+			res *= (n-1);
+			n = n-1
+		}
+		return res;
+	}
+
+
+
+	// list = [1,2,3,4,5,6, 2,4,2,1,3,1,1,2,3,2,2];
+	// l = list.filter((value, index, arr) => arr.indexOf(value) ==  index);
+
+</script>
+</body>
+</html>
