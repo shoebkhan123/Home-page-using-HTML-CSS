@@ -1,0 +1,264 @@
+.home{
+  background-image: url('/assets/backgrounds/Rectangle 11.png');
+  width: 100%;
+  height: 859px;
+  background-size: 100% 100%;
+}
+.navv{
+  top: 38px;
+  width: 1252px;
+  height: 73px;
+  border-radius: 15px;
+  box-shadow: 0px 9px 18px rgba(125,125,125,0.13);
+  background-color: #ffffff;
+  position: relative;
+}
+.navv-left{
+  /* background-color: red; */
+  width: 50%;
+  line-height: 73px;
+  float: left;
+}
+.navv-left a img{
+  height: 58px;
+  width: 123px;
+}
+.navv-right{
+  width: 50%;
+  float: right;
+}
+.navv-right ul li{
+  list-style: none;
+  display: inline-block;
+  line-height: 75px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgb(32,117,182);
+  font-family: "Lato";
+  font-weight: 300;
+  margin: 0 20px;
+}
+navv-right ul li a:hover{
+  text-decoration: underline;
+}
+.text-home{
+  top: 100px;
+  position: relative;
+}
+.title1{
+  top: 73px;
+  position: relative;
+  font-size: 93px;
+  letter-spacing: 7px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: center;
+}
+.title2{
+  font-size: 129px;
+  letter-spacing: 10px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  text-align: center;
+}
+.images{
+  margin-top: 100px;
+  display: flex;
+}
+#img1{
+  width: 186px;
+  height: 208px;
+}
+#img2{
+  width: 132px;
+  height: 148px;
+}
+
+/* ..........Services................. */
+.service-title{
+    text-align: center;
+    font-size: 61px;
+    letter-spacing: 5px;
+    color: rgb(0,0,0);
+    font-family: "Lato";
+    font-weight: 300;
+    /* background-image: linear-gradient(268deg, #9f9f9f 0%, #1f75b5 100%); */
+}
+#imgg:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.trends{
+  height: 700px;
+  background-image: url('/assets/backgrounds/4683.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.trends-title{
+  font-size: 61px;
+  letter-spacing: 5px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: center;
+  top: 100px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+#cr{
+  top: 200px;
+  position: relative;
+  text-align: center;
+}
+/* Make the images wide and responsive. */
+#myCarousel img {
+  height: auto;
+  max-width: 100%;
+  /* width: 100%; */
+}
+
+.item img{
+  display: inline-block;
+}
+/* Change the order of the indicators.
+   Return them to the center of the slide. */
+.carousel-indicators {
+  width: auto;
+  margin-left: 0;
+  transform: translateX(-50%);
+}
+.carousel-indicators li {
+  float: right;
+  margin: 1px 4px;
+}
+.carousel-indicators .active {
+  margin: 0 3px;
+}
+.slider-title{
+  top: 180px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  text-align: center;
+}
+
+/* Change the direction of the transition. */
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+/* ..........contact us................. */
+
+.ng-invalid.ng-touched input{
+  border: 2px solid tomato;
+}
+.contact{
+  top: 200px;
+  position: relative;
+  background-image: url('/assets/backgrounds/Rectangle 13.png');
+  width: 100%;
+  height: 626px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.contact-text{
+  top: 267px;
+  position: relative;
+  font-size: 34px;
+  letter-spacing: 3px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  box-shadow: 0px 14px 21px rgba(0,0,0,0.57);
+}
+.contact-form{
+  top: 58px;
+  width: 532px;
+  height: 505px;
+  box-shadow: 0px 10px 16px rgba(0,0,0,0.34);
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+.contact-form h3{
+  top: 20px;
+  position: relative;
+}
+.contact-form small{
+  top: 10px;
+  position: relative;
+}
+.contact-form form{
+  margin: 20px;
+}
+.foot{
+  width: 1367px;
+  height: 113px;
+  background-color: #174d7b;
+}
+.footer-text{
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  font-weight: 300;
+  line-height: 113px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #outer{
+  height: 700px;
+  background-color: red;
+}
+#inner{
+  top: 70px;
+  margin: auto;
+  max-width: 100%;
+  height: 400px;
+  background-color: green;
+  position: relative;
+
+}
+
+#inner2{
+  top: -250px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+
+}
+
+#inner3{
+  height: 300px;
+  background-color: yellow;
+  position: relative;
+
+} */
